@@ -9,7 +9,7 @@
 - CSS
 
 ## Live link
-[Bookstore](https://peaceful-dawn-47380.herokuapp.com/)
+[Bookstore](https://floating-plateau-62699.herokuapp.com/)
 
 ## Getting Started
 
