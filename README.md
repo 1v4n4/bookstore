@@ -1,5 +1,5 @@
 # Bookstore
-
+This project is a front-end application for organizing and managing books. To be fast, dynamic, and responsive it is built with React & Redux.
 
 ## Built with
 - Javascript
