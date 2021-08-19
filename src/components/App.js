@@ -5,7 +5,7 @@ import BookList from '../containers/BookList';
 function App() {
   return (
     <div className="App">
-      <h1>App</h1>
+      <h1>Bookstore</h1>
       <BookList />
       <BookForm />
     </div>
