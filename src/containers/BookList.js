@@ -1,10 +1,8 @@
-import React from 'react';
+import { useSelector } from 'react-redux';
 import Book from '../components/Book';
-import store from '../reducers';
 
 const BookList = () => {
-  const list = store.getState();
-  console.log(list);
+  const list = useSelector((state) => state.books);
   return (
     <table>
       <thead>
