@@ -1,19 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+:root {
+  --bubble-gum-pink: #ff5ab7;
+
+  --black: #1e1e1e;
+
+  --pinkish-grey: #c4c4c4;
+
+  --warm-grey: #888;
+
+  --black-two: #121212;
+
+  --black: #000;
+
+  --white: #fff;
+
+  --dodger-blue: #379cf6;
+
+  --medium-blue: #307bbe;
+
+  --black-5: rgba(0, 0, 0, 0.05);
+
+  --azure: #0290ff;
+
+  --white-two: #fafafa;
+
+  --pale-grey: #f5f6fa;
+
+}
+
+
+.text5 {
+
+  font-family: Montserrat;
+
+  font-size: 1.875rem;
+
+  font-weight: bold;
+
+  font-stretch: normal;
+
+  font-style: normal;
+
+  line-height: normal;
+
+  letter-spacing: normal;
+
+  color: var(--azure);
+
+}
+
+.foptions {
+  font-family: Montserrat;
+
+font-size: 0.813rem;
+
+font-weight: normal;
+
+font-stretch: normal;
+
+font-style: normal;
+
+line-height: normal;
+
+letter-spacing: 1.9px;
+
+color: var(--black-two);
+}
+/* .Text-Style-6 {
+
+  font-family: RobotoSlab;
+
+  font-size: 1.375rem;
+
+  font-weight: bold;
+
+  font-stretch: normal;
+
+  font-style: normal;
+
+  line-height: normal;
+
+  letter-spacing: -0.2px;
+
+  color: var(--black-two);
+
+}
+
+.Text-Style-2 {
+
+  font-family: SourceSerifPro;
+
+  font-size: 1.25rem;
+
+  font-weight: bold;
+
+  font-stretch: normal;
+
+  font-style: normal;
+
+  line-height: normal;
+
+  letter-spacing: normal;
+
+  color: var(--white);
+
+}
+
+.Text-Style-4 {
+
+  font-family: FuturaPT;
+
+  font-size: 1.063rem;
+
+  font-weight: normal;
+
+  font-stretch: normal;
+
+  font-style: normal;
+
+  line-height: normal;
+
+  letter-spacing: 3.78px;
+
+  color: var(--white);
+
+}
+
+.Text-Style {
+
+  font-family: ProximaNova;
+
+  font-size: 1.063rem;
+
+  font-weight: normal;
+
+  font-stretch: normal;
+
+  font-style: normal;
+
+  line-height: normal;
+
+  letter-spacing: normal;
+
+  color: #6782a4;
+
+}
+
+.Text-Style-8 {
+
+  font-family: Montserrat;
+
+  font-size: 0.875rem;
+
+  font-weight: bold;
+
+  font-stretch: normal;
+
+  font-style: normal;
+
+  line-height: normal;
+
+  letter-spacing: normal;
+
+  color: var(--black-two);
+
+}
+
+.Text-Style-3 {
+
+  font-family: PlayfairDisplay;
+
+  font-size: 0.75rem;
+
+  font-weight: normal;
+
+  font-stretch: normal;
+
+  font-style: normal;
+
+  line-height: normal;
+
+  letter-spacing: 2px;
+
+  color: var(--white);
+
+}*/
+
+
 body {
   margin: 0;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    'Roboto',
-    'Oxygen',
-    'Ubuntu',
-    'Cantarell',
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: var(--pale-grey);
+
+  width: 100rem;
+
+  height: 89.625rem;
+
+  padding: 9.313rem 3.75rem 7.688rem 6.25rem;
+
+
 }
 
 code {
