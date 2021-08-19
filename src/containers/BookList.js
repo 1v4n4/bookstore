@@ -1,8 +1,20 @@
-import { useSelector } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux';
 import Book from '../components/Book';
+import { removeBook } from '../actions';
 
 const BookList = () => {
   const list = useSelector((state) => state.books);
+  const dispatch = useDispatch();
+
+  const handleRemoveBook = (book) => {
+    const { id } = book;
+    dispatch(
+      removeBook({
+        id,
+      }),
+    );
+  };
+
   return (
     <table>
       <thead>
@@ -14,7 +26,7 @@ const BookList = () => {
       </thead>
       <tbody>
         {list.map((book) => (
-          <Book book={book} key={book.id} />
+          <Book book={book} key={book.id} handleRemoveBook={handleRemoveBook} />
         ))}
       </tbody>
     </table>
