@@ -5,7 +5,7 @@ import { removeBook } from '../actions';
 const BookList = () => {
   const list = useSelector(
     (state) => {
-      if (state.filter === 'All' || state.filter === 'Categories') return state.books;
+      if (state.filter === 'All' || state.filter === 'CATEGORIES') return state.books;
       return state.books.filter((book) => book.category === state.filter);
     },
   );

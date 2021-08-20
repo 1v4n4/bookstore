@@ -32,6 +32,8 @@
 #root {
   box-shadow: 0 0 60px 0 var(--black-5);
   background-color: var(--white-two);
+  padding-bottom: 15rem;
+  margin-bottom: 11.75rem;
 }
 
 .text-li {
@@ -113,6 +115,30 @@
   letter-spacing: normal;
   color: var(--black-two);
 }
+
+.add-txt {
+  font-family: Montserrat, sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.18px;
+  color: var(--warm-grey);
+}
+
+.addbk-txt {
+  font-family: 'Roboto Slab', serif;
+  font-size: 0.813rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: var(--white);
+}
+
 
 /*
 .Text-Style-2 {
