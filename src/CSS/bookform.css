@@ -1,0 +1,47 @@
+.book-form {
+  margin: 2.313rem 6.25rem 0;
+  padding-top: 0.3rem;
+  border-top: solid 1px #e8e8e8;
+}
+
+h4 {
+  text-align: left;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+}
+
+input {
+  border: 1px solid #e8e8e8;
+  text-align: left;
+  margin-left: 0%;
+  width: 41.5rem;
+  height: 2.613rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: Montserrat, sans-serif;
+  color: #aca9a9;
+  padding-left: 2rem;
+  background: var(--white);
+}
+
+#category {
+  width: 17.813rem;
+  height: 2.813rem;
+  border: 1px solid #e8e8e8;
+  color: #c7c7c7;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: Montserrat, sans-serif;
+  background: var(--white);
+  padding-left: 2rem;
+}
+
+.addbtn {
+  background: var(--azure);
+  width: 11.5rem;
+  height: 2.813rem;
+  border-radius: 5px;
+}

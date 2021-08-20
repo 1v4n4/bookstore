@@ -1,0 +1,102 @@
+.MuiCircularProgress-colorPrimary {
+  color: var(--dodger-blue) !important;
+}
+
+.book-div {
+  display: flex;
+  justify-content: space-between;
+  height: 10.625rem;
+  margin: 2.313rem 6.25rem 0;
+  border-radius: 4px;
+  border: solid 1px #e8e8e8;
+  background-color: var(--white);
+}
+
+ul {
+  list-style-type: none;
+  text-align: left;
+}
+
+li {
+  display: inline;
+  padding-right: 1rem;
+}
+
+.pleft {
+  padding-left: 1rem;
+}
+
+.border-li {
+  border-right: solid 1px #e8e8e8;
+}
+
+.rmvbtn {
+  background: none;
+  border: none;
+}
+
+.category-p {
+  text-align: left;
+  margin: 2.2rem 0 0 2.6rem;
+}
+
+h3 {
+  text-align: left;
+  margin: 0.3rem 0 0 2.6rem;
+}
+
+.id-p {
+  text-align: left;
+  margin: 0.2rem 0 1.2rem 2.6rem;
+}
+
+.right-book-div {
+  display: flex;
+  margin: 0 9rem 0 0;
+}
+
+.circle {
+  margin: 3rem 1rem 0 0;
+}
+
+.circle-txt {
+  margin: 3rem 4.5rem 2rem 0;
+  border-right: solid 1px  #e8e8e8;
+  padding-right: 4.5rem;
+}
+
+.completed {
+  margin-top: -0.1rem;
+}
+
+.current-chapter {
+  margin: 2.5rem 0 0 0;
+  text-align: left;
+}
+
+.chapter-name {
+  text-align: left;
+  margin-top: 0.2rem;
+}
+
+.cspan {
+  margin-left: 1rem;
+}
+
+.progress-div {
+  font-family: 'Roboto Slab', serif;
+  font-size: 0.813rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: var(--white);
+  width: 11.5rem;
+  height: 2.063rem;
+  margin: 0;
+  padding: 0.01rem 1.188rem 0.5rem 1.375rem;
+  border-radius: 3px;
+  background-color: var(--azure);
+}

@@ -2,8 +2,9 @@ import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { v4 as uuidv4 } from 'uuid';
 import { addBook } from '../actions';
+import '../CSS/bookform.css';
 
-const Categories = ['Satire', 'Biography', 'History', 'Horror', 'Magic realism', 'Learning', 'Sci-Fi'];
+const Categories = ['Satire', 'Biography', 'History', 'Horror', 'Magic realism', 'Fantasy', 'Sci-Fi'];
 
 const BookForm = () => {
   const [title, setTitle] = useState('');
@@ -23,26 +24,20 @@ const BookForm = () => {
   };
   return (
     <div className="book-form">
-      <h3>Create book</h3>
-      <p>
-        Title:
-        {title}
-      </p>
-      <p>
-        Category:
-        {category}
-      </p>
+      <h4 className="add-txt">ADD NEW BOOK</h4>
       <form className="form" onSubmit={handleSubmit}>
         <input type="text" name="title" placeholder="Book title" onChange={(e) => setTitle(e.target.value)} />
         <select name="category" id="category" onChange={(e) => setCategory(e.target.value)}>
-          <option label=" ">Choose category </option>
-          {Categories.map((category) => (
-            <option value={category} key={category}>
-              {category}
-            </option>
-          ))}
+          <optgroup>
+            <option label="Category">Category </option>
+            {Categories.map((category) => (
+              <option value={category} key={category}>
+                {category}
+              </option>
+            ))}
+          </optgroup>
         </select>
-        <button type="submit">Add book</button>
+        <button type="submit" className="addbtn addbk-txt">ADD BOOK</button>
       </form>
     </div>
   );
