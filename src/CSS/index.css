@@ -18,6 +18,26 @@
   --pale-grey: #f5f6fa;
 }
 
+
+
+body {
+  margin: 0;
+  background: var(--pale-grey);
+  width: 100rem;
+  height: 89.625rem;
+  padding: 9.313rem 3.75rem 7.688rem 6.25rem;
+}
+
+code {
+  font-family:
+    source-code-pro,
+    Menlo,
+    Monaco,
+    Consolas,
+    'Courier New',
+    monospace;
+}
+
 .text5 {
   font-family: Montserrat, sans-serif;
   font-size: 1.875rem;
@@ -137,106 +157,4 @@
   letter-spacing: 0.5px;
   text-align: center;
   color: var(--white);
-}
-
-
-/*
-.Text-Style-2 {
-
-  font-family: SourceSerifPro;
-
-  font-size: 1.25rem;
-
-  font-weight: bold;
-
-  font-stretch: normal;
-
-  font-style: normal;
-
-  line-height: normal;
-
-  letter-spacing: normal;
-
-  color: var(--white);
-
-}
-
-.Text-Style-4 {
-
-  font-family: FuturaPT;
-
-  font-size: 1.063rem;
-
-  font-weight: normal;
-
-  font-stretch: normal;
-
-  font-style: normal;
-
-  line-height: normal;
-
-  letter-spacing: 3.78px;
-
-  color: var(--white);
-
-}
-
-.Text-Style {
-
-  font-family: ProximaNova;
-
-  font-size: 1.063rem;
-
-  font-weight: normal;
-
-  font-stretch: normal;
-
-  font-style: normal;
-
-  line-height: normal;
-
-  letter-spacing: normal;
-
-  color: #6782a4;
-
-}
-
-
-
-.Text-Style-3 {
-
-  font-family: PlayfairDisplay;
-
-  font-size: 0.75rem;
-
-  font-weight: normal;
-
-  font-stretch: normal;
-
-  font-style: normal;
-
-  line-height: normal;
-
-  letter-spacing: 2px;
-
-  color: var(--white);
-
-} */
-
-body {
-  margin: 0;
-  background: var(--pale-grey);
-  width: 100rem;
-  height: 89.625rem;
-  padding: 9.313rem 3.75rem 7.688rem 6.25rem;
-}
-
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
 }
