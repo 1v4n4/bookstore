@@ -1,5 +1,5 @@
 .MuiCircularProgress-colorPrimary {
-  color: var(--dodger-blue) !important;;
+  color: var(--dodger-blue) !important;
 }
 
 .book-div {
@@ -22,7 +22,7 @@ li {
   padding-right: 1rem;
 }
 
-.pleft{
+.pleft {
   padding-left: 1rem;
 }
 
@@ -84,32 +84,19 @@ h3 {
 }
 
 .progress-div {
-    font-family: RobotoSlab;
-
+  font-family: 'Roboto Slab', serif;
   font-size: 0.813rem;
-
   font-weight: 300;
-
   font-stretch: normal;
-
   font-style: normal;
-
   line-height: normal;
-
   letter-spacing: 0.5px;
-
   text-align: center;
-
   color: var(--white);
   width: 11.5rem;
-
   height: 2.063rem;
-
   margin: 0;
-
   padding: 0.01rem 1.188rem 0.5rem 1.375rem;
-
   border-radius: 3px;
-
   background-color: var(--azure);
 }
