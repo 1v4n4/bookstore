@@ -1,5 +1,8 @@
 # Bookstore
+This project is a front-end application for organizing and managing books. To be fast, dynamic, and responsive it is built with React & Redux.
+Users can add or remove books, and make a selection by category.
 
+![Screenshot](./public/screenshot.png)
 
 ## Built with
 - Javascript
@@ -40,12 +43,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-
-
 
 ## Author
 👤 **Ivana Novaković-Leković**
